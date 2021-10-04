@@ -1,0 +1,18 @@
+
+nav a {
+    margin: 2px 17px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #65656E;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.logo-section img{
+    display: block;
+    margin: 0 auto;
+}
+
+nav{
+    text-align: center;
+}
