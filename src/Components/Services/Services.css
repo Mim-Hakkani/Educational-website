@@ -1,0 +1,30 @@
+
+.services-header{
+    color:#0A0B29;
+    background-color: #F3F4F8;
+    padding: 80px 0px;
+    margin-bottom: 5px;
+}
+.services-header h1 {
+    font-size: 48px;
+    line-height: 61px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    letter-spacing: 1.5px;
+}
+.services-header p{
+    color: grey;
+    word-spacing: 1px;
+}
+
+.navs-skill{
+    margin-top: 25px;
+}
+.navs-skill a{
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;
+}
+.fa-star{
+    color: gold;
+}

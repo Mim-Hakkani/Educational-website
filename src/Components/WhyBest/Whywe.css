@@ -1,0 +1,26 @@
+.Choose {
+    margin-top: 148px;
+}
+.Choose h5 {
+    font-size: 17px;
+    color: blueviolet;
+    letter-spacing: 2px;
+}
+.Choose h1 {
+    font-size: 50px;
+    margin-top: 24px;
+    line-height: 54px;
+    font-family: 'Poppins';
+    margin-bottom: 13px;
+    color: #3a3838f2;
+}
+.Choose p {
+    font-size: 16px;
+    color: grey;
+    line-height: 27px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}

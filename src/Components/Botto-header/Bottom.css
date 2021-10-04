@@ -1,0 +1,18 @@
+.bottom-header {
+    background-color: #B8DDCA;
+    padding: 100px 0px;
+}
+.header-left {
+    margin-top: 45px;
+}
+.header-left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 18px;
+}
+.header-left h4 {
+    font-size: 20px;
+    line-height: 31px;
+}
+.header-left p{}

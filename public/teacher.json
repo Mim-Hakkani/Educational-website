@@ -1,0 +1,38 @@
+[
+    {
+        "id" :"1",
+        "title":"CEO, Founder",
+        "img":"https://themepure.net/template/educal/educal/assets/img/teacher/teacher-6.jpg",
+        "name":"Hasirs"
+    }, 
+     {
+      "id" :"2",
+      "title":"Programmer",
+      "img":"https://themepure.net/template/educal/educal/assets/img/teacher/teacher-5.jpg",
+      "name":"Nitoni"
+  },
+  {
+      "id" :"3",
+      "title":"Web Designer",
+      "img":"https://themepure.net/template/educal/educal/assets/img/teacher/teacher-4.jpg",
+      "name":"Rupam Sk"
+  },
+  {
+      "id" :"4",
+      "title":"Web Developer",
+      "img":"https://themepure.net/template/educal/educal/assets/img/teacher/teacher-3.jpg",
+      "name":"Qurn Mery"
+  },
+  {
+      "id" :"5",
+      "title":"Seo Expert",
+      "img":"https://themepure.net/template/educal/educal/assets/img/teacher/teacher-2.jpg",
+      "name":"Hakkani"
+  },
+  {
+      "id" :"6",
+      "title":"Digital Marketer",
+      "img":"https://themepure.net/template/educal/educal/assets/img/teacher/teacger-1.jpg",
+      "name":"Mim"
+  }
+  ]

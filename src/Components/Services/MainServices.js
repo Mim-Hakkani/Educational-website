@@ -1,22 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Col, Container, Image, Nav, Pagination, Row, Toast } from 'react-bootstrap';
-import './Services.css'
+import { Card, Col, Container, Image, Nav, Row} from 'react-bootstrap';
+import '../Services/Services.css'
 
-const Services = () => {
+const MainServices = () => {
 
-    const[services,setServices]=useState([]);
-
+    const[mainServices,SetServices] =useState([])
     useEffect(()=>{
-        fetch('services_home.json')
+        fetch('services.json')
         .then(res=>res.json())
-        .then(data=>setServices(data))
+        .then(data=>SetServices(data))
+    },[]);
 
-    },[])
     return (
-        <div className="services-header">
+<div className="services-header mt-5 py-5">
             <Container >
                 <Row>
-                    <Col md={6} lg={6} sm={6}>
+                    <Col md={12} lg={12} sm={12}>
                            <div>
                             
                                 <h1>
@@ -27,32 +26,14 @@ const Services = () => {
                         
                     </Col>
 
-                    <Col md={6} lg={6} sm={6} >
-                    <Nav className="justify-content-end pt-5 navs-skill" activeKey="/home" >
-                        <Nav.Item>
-                        <Nav.Link href="/home">Programing</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                        <Nav.Link eventKey="link-1">Web</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                        <Nav.Link eventKey="link-2">Digital Marketing</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                        <Nav.Link eventKey="link-2" >
-                            Graphices Design
-                        </Nav.Link>
-                        </Nav.Item>
-                    </Nav>
-
-                    </Col>
+                
 
                 </Row>
 
                 <Row className="mt-5">
                     
                         {
-                            services.map(service=> 
+                            mainServices.map(service=> 
                                
                       <Col md={4} >
                       <Card className="mt-2">
@@ -63,17 +44,11 @@ const Services = () => {
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                             </Card.Text>
-
                             <div className="d-flex">
                                 <p><i class="far fa-bookmark"></i> {service.lesson} Lession</p>
                                 <p style={{marginLeft: '180px'}}><i class="fas fa-star"></i> {service.ratting}({service.user})</p>
                             </div>
-
                             <div className="d-flex">
-                                <h6>Pervious Price: <del>$ {service.Prev_price}</del> </h6>
-                                <h6 style={{marginLeft: '50px',marginBottom:'5px'}}>Current Price: $ {service.c_price}</h6>
-                            </div>
-                            <div className="d-flex mt-2">
                                 
                                 <Image src="https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-1.jpg" roundedCircle />
                                 <h6 style={{marginLeft: '14px'}}> {service.name}</h6>
@@ -88,22 +63,9 @@ const Services = () => {
                     
                   
                 </Row>
-
-                <Row>
-                    <Col>
-                    <Pagination className="mt-5 justify-content-center">
-                        <Pagination.First />
-                            <Pagination.Item>{1}</Pagination.Item>
-                            <Pagination.Item>{2}</Pagination.Item>
-                            <Pagination.Item>{3}</Pagination.Item>
-                        <Pagination.Last />
-                        </Pagination>
-
-                    </Col>
-                </Row>
             </Container>
         </div>
     );
 };
 
-export default Services;
+export default MainServices;

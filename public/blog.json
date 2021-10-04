@@ -1,0 +1,75 @@
+[
+    {
+        "id" :"1",
+        "title":"The Challenge Of Global Learning In Public Education",
+        "img":"https://themepure.net/template/educal/educal/assets/img/blog/blog-1.jpg",
+        "name":"Jhanker",
+        "date":"4/10/21",
+        "img2":"https://themepure.net/template/educal/educal/assets/img/blog/author/author-3.jpg",
+        "about":"Frelancing"
+    }, 
+     {
+      "id" :"2",
+      "title":"Exactly How Technology Can Make Reading Better",
+      "img":"https://themepure.net/template/educal/educal/assets/img/blog/blog-2.jpg",
+      "name":"Masud",
+      "date":"2/10/21",
+      "img2":"https://themepure.net/template/educal/educal/assets/img/blog/author/author-3.jpg",
+      "about":"Technology"
+  },
+  {
+      "id" :"3",
+      "title":"New Chicago school budget relies on state pension",
+      "img":"https://themepure.net/template/educal/educal/assets/img/blog/blog-3.jpg",
+      "name":"Kobraia",
+      "date":"1/10/21",
+      "img2":"https://themepure.net/template/educal/educal/assets/img/blog/author/author-3.jpg",
+      "about":"Frelancing"
+  },
+  {
+      "id" :"4",
+      "title":"Google Ads certifications: Are they worth it?",
+      "img":"https://themepure.net/template/educal/educal/assets/img/blog/blog-4.jpg",
+      "name":"Hakkani",
+      "date":"31/9/21",
+      "img2":"https://themepure.net/template/educal/educal/assets/img/blog/author/author-3.jpg",
+      "about":"fine and arts"
+  },
+  {
+      "id" :"5",
+      "title":"14 Facebook Ad Examples for Ad Creative Inspiration",
+      "img":"https://themepure.net/template/educal/educal/assets/img/blog/blog-5.jpg",
+      "rname":"Nathan",
+      "date":"27/10/21",
+      "img2":"https://themepure.net/template/educal/educal/assets/img/blog/author/author-3.jpg",
+      "about":"Facebok markiting"
+  },
+  {
+      "id" :"6",
+      "title":"How to manage Facebook ads for clients the right way",
+      "img":"https://themepure.net/template/educal/educal/assets/img/blog/blog-6.jpg",
+      "name":"Mular",
+      "date":"25/10/21",
+      "img2":"https://themepure.net/template/educal/educal/assets/img/blog/author/author-3.jpg",
+      "about":"Afilate markiting"
+  },
+
+  {
+    "id" :"7",
+    "title":"Programming With C",
+    "img":"https://media.istockphoto.com/photos/printed-java-code-under-a-mouse-picture-id172238697?s=612x612",
+    "name":"David",
+    "date":"21/9/21",
+    "img2":"https://themepure.net/template/educal/educal/assets/img/blog/author/author-3.jpg",
+    "about":"Programming"
+},
+{
+    "id" :"8",
+    "title":"Digital Marketing",
+    "img":"https://media.istockphoto.com/photos/staying-connected-picture-id1277665587?s=612x612",
+    "name":"Samim",
+    "date":"26/9/21",
+    "img2":"https://themepure.net/template/educal/educal/assets/img/blog/author/author-3.jpg",
+    "about":"Digital Marketing"
+}
+  ]
