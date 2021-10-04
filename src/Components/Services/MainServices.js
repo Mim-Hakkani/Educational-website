@@ -4,7 +4,11 @@ import '../Services/Services.css'
 
 const MainServices = () => {
 
+    //data set in hooks
     const[mainServices,SetServices] =useState([])
+
+    //data load from fake data 
+    
     useEffect(()=>{
         fetch('services.json')
         .then(res=>res.json())

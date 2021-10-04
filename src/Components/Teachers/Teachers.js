@@ -6,7 +6,10 @@ import proudstd from '../images/proud-counter.jpg';
 import './Teachers.css'
 
 const Teachers = () => {
+    //teachers data set
     const[teachers,setTeachers]=useState([])
+    
+    //teachers data load
     useEffect(()=>{
         fetch('teacher.json')
         .then(res=>res.json())

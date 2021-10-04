@@ -3,7 +3,7 @@ import notfound from '../images/error.png'
 
 const NotFound = () => {
     return (
-        <div>
+        <div className="my-5 py-5">
             <img src={notfound} alt="Not found page"
             
             style={{

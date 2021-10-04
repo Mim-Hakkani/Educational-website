@@ -4,9 +4,12 @@ import './blog.css';
 import tags from '../images/tags.jpg'
 
 const Blog = () => {
+  
+    //set blogs in usestate hooks
 
     const[blogs,SetBlogs] =useState([])
 
+    //load fake data from public
     useEffect(()=>{
         fetch('blog.json')
         .then(res=>res.json())
@@ -16,11 +19,17 @@ const Blog = () => {
     return (
         <div>
              <Container>
+                 
+                 {/* blog-title  */}
+
                  <Row>
                      <Col >
                        <h1 className="py-5">BLOG</h1>
                      </Col>
                  </Row>
+
+                 {/* blog-content  */}
+
                  <Row>
                     <Col md={9} lg={9} sm={9}>
                         <Row>
@@ -56,10 +65,10 @@ const Blog = () => {
                             }
                            
                         </Row>
-                     
-                     
+                    </Col>
 
-                     </Col>
+{/* blog-sidebar  */}
+
                      <Col md={3} lg={3} sm={3}>
                          <div className="search">
                             <InputGroup className="mb-3">

@@ -11,6 +11,9 @@ const Testimonial = () => {
                         <h1 className="text-uppercase">Our Testimonial</h1>
                         <hr></hr>
                     </Col>
+
+                    {/* carousel and slider is here  */}
+                    
                     <Col className="my-3">
                     <Carousel fade>
                         <Carousel.Item>

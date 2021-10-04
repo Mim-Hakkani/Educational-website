@@ -19,13 +19,19 @@ const Header = () => {
         <div className="Nav-Header py-4">
             <Container fluid>
                 <Row>
+
+    {/* header-logo  */}
+
                     <Col lg={12} md={12} sm={12} xs={12}>
                         <div className="logo-section">
                             <img src={logo} alt="header-logo"></img>
                         </div>
                     </Col>
+
+    {/* React-routing  */}
                   
                     <Col lg={12} md={12} sm={12} xs={12} className="py-4">
+
                         <BrowserRouter>
                            <nav>
                                 <NavLink to="/home" >Home</NavLink>
@@ -76,6 +82,7 @@ const Header = () => {
                          
                         </BrowserRouter>
                     </Col>
+                    
                     <Col lg={2} md={2} sm={2} xs={0}></Col>
                     
 

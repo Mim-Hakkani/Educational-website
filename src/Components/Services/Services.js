@@ -3,9 +3,10 @@ import { Card, Col, Container, Image, Nav, Pagination, Row, Toast } from 'react-
 import './Services.css'
 
 const Services = () => {
-
+ //data set 
     const[services,setServices]=useState([]);
 
+// data load from fake data
     useEffect(()=>{
         fetch('services_home.json')
         .then(res=>res.json())
@@ -28,6 +29,8 @@ const Services = () => {
                     </Col>
 
                     <Col md={6} lg={6} sm={6} >
+
+        {/* Navbar for skill */}
                     <Nav className="justify-content-end pt-5 navs-skill" activeKey="/home" >
                         <Nav.Item>
                         <Nav.Link href="/home">Programing</Nav.Link>
@@ -52,8 +55,10 @@ const Services = () => {
                 <Row className="mt-5">
                     
                         {
-                            services.map(service=> 
-                               
+                            services.map(service=>
+
+                // single type id skills
+                                
                       <Col md={4} >
                       <Card className="mt-2">
                         <Card.Img variant="top" src={service.img} />
@@ -91,6 +96,9 @@ const Services = () => {
 
                 <Row>
                     <Col>
+
+                    {/* pagination  */}
+                    
                     <Pagination className="mt-5 justify-content-center">
                         <Pagination.First />
                             <Pagination.Item>{1}</Pagination.Item>

@@ -9,11 +9,11 @@ const Footer = () => {
     <footer>
         <Container>
             <Row>
-                <Col md={6} sm={6} xs={12} lg={3}>
-                
 
-                        
-                        <div className="Footer1">
+                {/* Top footer-1  */}
+
+                <Col md={6} sm={6} xs={12} lg={3}>
+                   <div className="Footer1">
                             <img src={footerlogo} alt="" />
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat .</p>
                             <div className="footer-social">
@@ -27,6 +27,9 @@ const Footer = () => {
                         </div>
                     
                 </Col>
+
+
+  {/* Top footer-2 */}
 
                 <Col md={6} sm={6} xs={12} lg={3}>
 
@@ -42,6 +45,8 @@ const Footer = () => {
                         </div>
                 </Col>
 
+  {/* Top footer-3 */}
+
                 <Col md={6} sm={6} xs={12} lg={3}>
 
                         <div className="Footer-3">
@@ -55,6 +60,9 @@ const Footer = () => {
                                 </div>
                         </div>
                 </Col>
+
+         {/* Top footer-4  */} 
+
                 <Col md={6} sm={6} xs={12} lg={3}>
                     <div className="Footer-2">
                            <h5>Support</h5>
@@ -79,6 +87,8 @@ const Footer = () => {
                         />
               </Col>
 
+
+  {/* Main-Footer */}
               <Col md={12} lg={12} sm={12}>
                   <div className="footer-paragraph">
                       <p>@ 2021 Copyright All Right Reserved By Golam Hakkani Mim</p>
