@@ -44,14 +44,16 @@ const MainServices = () => {
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                             </Card.Text>
+
                             <div className="d-flex">
                                 <p><i class="far fa-bookmark"></i> {service.lesson} Lession</p>
                                 <p style={{marginLeft: '180px'}}><i class="fas fa-star"></i> {service.ratting}({service.user})</p>
                             </div>
+
                             <div className="d-flex">
                                 
                                 <Image src="https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-1.jpg" roundedCircle />
-                                <h6 style={{marginLeft: '14px'}}> {service.name}</h6>
+                                <p> {service.name}</p>
                             </div>
                            
                             

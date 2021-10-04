@@ -35,13 +35,22 @@ const Header = () => {
                                 <NavLink to="/contact">Contact</NavLink>
                              </nav>
                             <Switch>
-                                <Route exact path="/"></Route>
-
-                                <Route exact path="/home">
+                                <Route exact path="/">
+                                    
                                   <Bottom></Bottom>
                                   <Services></Services>
                                   <Testimonial></Testimonial>
                                   <Whywe></Whywe>
+
+                                </Route>
+
+                                <Route exact path="/home">
+
+                                  <Bottom></Bottom>
+                                  <Services></Services>
+                                  <Testimonial></Testimonial>
+                                  <Whywe></Whywe>
+
                                 </Route>
 
                                 <Route exact path="/about">
@@ -59,7 +68,7 @@ const Header = () => {
                                 <Route exact path="/contact">
                                     <Contact></Contact>
                                 </Route>
-                                
+
                                 <Route exact path="*">
                                     <NotFound></NotFound>
                                 </Route>
