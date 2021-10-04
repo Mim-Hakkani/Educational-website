@@ -1,0 +1,85 @@
+
+/*
+  1.Footer Social and logo
+  2.Footer Explore
+  2.Footer Catagories
+  2.Footer Support
+
+*/
+
+
+/* footer1 text and icons */
+
+footer{
+    background-color: #F7F6FB;
+    height: auto;
+    padding: 54px 54px;
+}
+footer p{
+    padding: 5px;
+    font-size: 15px;
+    line-height: 26px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+footer li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #878675;
+}
+
+footer h5 {
+    margin-bottom: 18px;
+}
+
+/* footer-social */
+
+.footer-social ul{
+    margin-top: 20px;
+}
+.footer-social ul li {
+    list-style: none;
+    display: inline;
+    margin: 8px;
+}
+.footer-social ul li i{
+    font-size: 32px;
+ }
+
+.fb{color: #4768B4;}
+
+.tw{
+color:#0AA5E7;
+}
+
+.yt{
+color:#E63A34;
+}
+
+.ln{
+    color:#0076B2;
+}
+
+/* footer-list */
+.Footer-1{
+    margin-top: -3px; 
+    }
+.Footer-2{
+margin-top: 20px;
+}
+.Footer-4{
+ margin-top: 20px;  
+
+}
+.Footer-3{
+ margin-top: 20px;   
+}
+.footer-paragraph p {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+    letter-spacing: 1px;
+}
