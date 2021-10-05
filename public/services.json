@@ -7,7 +7,8 @@
         "user":"120",
         "lesson":"25",
         "Prev_price":"200",
-        "c_price":"70"
+        "c_price":"70",
+        "name":"Golam Hakkani"
     }, 
      {
       "id" :"2",
@@ -17,7 +18,8 @@
       "user":"70",
       "lesson":"12",
       "Prev_price":"140",
-      "c_price":"100"
+      "c_price":"100",
+      "name":"jubayer"
   },
   {
       "id" :"3",
@@ -27,7 +29,8 @@
       "user":"1000",
       "lesson":"30",
       "Prev_price":"90",
-      "c_price":"Free"
+      "c_price":"Free",
+      "name":"Sharthok"
   },
   {
       "id" :"4",
@@ -37,7 +40,9 @@
       "user":"54",
       "lesson":"42",
       "Prev_price":"170",
-      "c_price":"90"
+      "c_price":"90",
+      "name":"Ashik kahn"
+
   },
   {
       "id" :"5",
@@ -47,6 +52,7 @@
       "user":"500",
       "lesson":"24",
       "Prev_price":"450",
+      "name":"Tanjid",
       "c_price":"200"
   },
   {
@@ -57,7 +63,8 @@
       "user":"44",
       "lesson":"17",
       "Prev_price":"340",
-      "c_price":"142"
+      "c_price":"142",
+      "name":"Tanvir"
   },
 
   {
@@ -68,7 +75,8 @@
     "user":"987",
     "lesson":"85",
     "Prev_price":"452",
-    "c_price":"75"
+    "c_price":"75",
+    "name":"Nayeem"
 },
 {
     "id" :"8",

@@ -5,7 +5,7 @@ import header_bottom from '../images/bottom-header.png'
 
 const Bottom = () => {
     return (
-        <div className="bottom-header mt-5">
+        <div className="bottom-header mt-4">
             <Container>
                 <Row>
                     <Col md={6} lg={8} xs={6}>

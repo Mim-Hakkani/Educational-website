@@ -40,7 +40,7 @@ const MainServices = () => {
                             mainServices.map(service=> 
                                
                       <Col md={4} >
-                      <Card className="mt-2">
+                      <Card className="mb-5" style={{height:'500px'}}>
                         <Card.Img variant="top" src={service.img} />
                         <Card.Body>
                             <Card.Title>{service.title}</Card.Title>
