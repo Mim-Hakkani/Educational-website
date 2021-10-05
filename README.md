@@ -1,6 +1,6 @@
-* Hakkani-Educational-Skills
+## Hakkani-Educational-Skills
 
-## Live Link : https://confident-jones-174201.netlify.app/
+## Live Link : https://goofy-spence-9ad138.netlify.app/
 
 
 ### `How it works`
