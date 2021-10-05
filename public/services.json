@@ -78,7 +78,8 @@
     "user":"42",
     "lesson":"42",
     "Prev_price":"340",
-    "c_price":"124"
+    "c_price":"124",
+    "name":"mim"
 },
 {
     "id" :"9",
@@ -88,6 +89,7 @@
     "user":"640",
     "lesson":"45",
     "Prev_price":"70",
-    "c_price":"50"
+    "c_price":"50",
+    "name":"hassd"
 }
   ]
